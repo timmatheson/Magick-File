@@ -1,0 +1,10 @@
+## Usage
+Just drop this into your config/initializers directory and you're ready to go.
+
+Works on most file objects without error however this is untested.
+
+f = File.open("bunnys-forever.jpg")
+
+f.info #=> Hash, path, name, format, width, height, size
+
+attributes are accessible by using f.width or f.format
