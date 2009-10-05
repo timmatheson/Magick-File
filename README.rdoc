@@ -1,7 +1,11 @@
 ## Usage
-Just drop this into your config/initializers directory and you're ready to go.
+Install the gem
 
-Works on most file objects without error however this is untested.
+add it to the environment.rb file
+
+config.gem 'Magickfile'
+
+## Example
 
 f = File.open("bunnys-forever.jpg")
 
