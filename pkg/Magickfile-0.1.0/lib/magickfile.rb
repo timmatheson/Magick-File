@@ -21,7 +21,7 @@ class File
     if info.keys.include?(method.to_sym)
       self.info[method.to_sym]
     else
-      raise Exception, "Undefined Method"
+      raise Exception, "Undefined Method #{method.to_s}"
     end
   end
 end
